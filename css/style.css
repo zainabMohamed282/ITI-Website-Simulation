@@ -1,0 +1,362 @@
+html{
+    transition: all 1s;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: all 1s;
+
+}
+.h_line{
+    border-right: 2px solid #901b20;
+    margin-right: 4px;
+    }
+    .header_title{
+        color: #6c757d;
+        font-size: large;
+     }
+     .about_us , .upper_nav{
+        font-size: 14px !important;
+        font-weight: 600;
+     }
+ 
+ .first_layer{
+    background-image: url('../images/career-coaching.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+ .second_layer{
+    background-image: url('../images/enterpreneurship.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+ }
+ .third_layer{
+    background-image: url('../images/interpersonal-language-skills.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+ }
+ .over_layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+ }
+ .carousel-inner{
+   overflow:visible;
+} 
+ 
+.carousel-indicators li{
+   margin-left: 10px !important;
+    border-radius: 50%;
+   width: 10px !important;
+   height: 15px !important;
+   margin-left: 5px;
+ }
+ 
+.nav_1 a , .upper_nav ul li a , .nav_2 .lower_nav ul li a{
+   transition: all 1s;
+}
+
+  .nav_1 a:hover ,.upper_nav ul li a:hover{
+color: rgb(158, 156, 156) !important;
+}
+.nav_2 .lower_nav ul li a:hover{
+   color:#901b20 !important;
+}
+.all_navs{
+   transition: top 1s;
+}
+
+#news{
+   margin: 5%;
+}
+.main-content a{
+ color: black;
+ font-size: 30px;
+ transition: all 1s;
+line-height: 30px;
+font-weight: 600;
+ }
+.main-content a:hover{
+   color: #901b20;
+}
+ .main-content p{
+   color: gray;
+   width: 200px;
+   text-align: justify;
+   margin-top: 10px;
+}
+.member-content p{
+    color: gray;
+   width: 200px;
+   text-align: justify;
+}
+.main_class .member-img img{
+   transition: all 1s;
+   margin: 0px 30px 30px 0px;
+   height: 400px;
+   box-shadow: 2px 2px 10px gray;
+
+ }
+.small_classes .member-img{
+   width: 400px;
+   height: 150px;
+}
+
+.member-img:hover img{
+   transform: scale(1.03,1.03);
+   cursor: pointer;
+
+}
+.iti{
+   background-color: #901b20;
+   padding: 6px 8px;
+   color: white;
+}
+#news .two_headers h1   {
+   color: #901b20;
+   margin-bottom: 3%;
+   margin-right: 60%;
+}
+#news .two_headers p{
+   text-align: right !important;
+   margin-bottom: 3%;
+   color: #901b20;
+}
+ 
+.small_classes img{
+   width: 500px;
+   height: 120px;
+   margin-bottom: 20px;
+   transition: all 1s;
+   box-shadow: 2px 2px 10px gray;
+
+  }
+.member-content{
+   margin-left: 20px;
+}
+.member-content a{
+   text-decoration: none !important;
+   color: rgb(48, 47, 47);
+   font-size: 14px;
+   display: block;
+   transition: all 1s;
+   font-weight: 600;
+}
+.member-content a:hover{
+   color: #901b20;
+}
+.member-content h3{
+   background-color: #901b20;
+   padding: 8px;
+   display: inline-block;
+   font-size: 13px;
+   color: white;
+}
+
+#history{
+   background-image: url(../images/blur-book-stack-books-590493.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.outer_layer {
+   background-color: rgba(44, 42, 42, 0.6);
+   height: 100%;
+   width: 100%;
+   padding: 5%;
+}
+.history-content{
+   text-align: center;
+   margin: 15%;
+}
+.history-content h4 , .history-content h6{
+   font-weight: 400;
+}
+.history-content i{
+   font-weight: 800;
+   font-size: 30px;
+}
+.header_content h1{
+   font-family: Lobster Two,cursive;
+   font-size: 50px;
+}
+#partners{
+   margin: 4%;
+}
+#partners h2{
+   font-family: Lobster Two,cursive;
+color: #901b20;
+font-weight: 500;
+font-size: 40px;
+}
+#partners p{
+   color: #3a3e41;
+}
+.partners_content{
+   margin: 2%;
+}
+.partners_content i ,.partners_content h5{
+   transition: all 1s;
+}
+.partners_content i:hover , .partners_content h5:hover{
+   color: #901b20 !important;
+   cursor: pointer;
+}
+#instructors{
+   background-image: url(../images/marketing-notebook-office-pen-97076.jpg);
+   background-position: center center;
+   background-size: cover;
+background-attachment: fixed;
+height: 550px;
+}
+.layer_2{
+   background-color: rgba(57, 96, 117, 0.5);
+   height: 100%;
+}
+.client-info img{
+   border: dashed 5px white;
+}
+.client-info p{
+   font-size:18px ;
+   color: aliceblue;
+}
+.client-info h5{
+   font-family: Lobster Two,cursive;
+   color: white;
+   font-size: 30px;
+   font-weight: 100 !important;
+}
+.main_branch{
+   background-color: #dee6f5;
+   color: black;
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 2px gray;
+
+}
+ #locations{
+   margin: 5%;
+ }
+ #locations h2{
+   font-family: Lobster Two,cursive;
+   color: #901b20;
+ }
+#allBranches h3{
+   border-radius: 15px;
+   box-shadow: 2px 2px 2px gray;
+   padding: 10px;
+   background-color: #dee6f5;
+   color: black;
+
+ }
+  
+  iframe{
+   border-radius: 15px;
+  }
+
+  #foot{
+   background-color: black;
+   color: aliceblue;
+  }
+  .contactUs a{
+   transition: all 1s;
+  }
+.contactUs a:hover{
+ color: gray !important;
+}
+.social-media .facebook{
+   color: #3b5a9a !important;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   border-radius: 100%;
+   transition: all 1s;
+}
+.social-media .facebook:hover{
+background-color: #3b5a9a !important;
+color: white !important;
+}
+
+.social-media .twitter{
+color: #1aa9e1 !important;
+   background-color: white;
+   padding: 5px 8px 5px 8px;
+   border-radius: 100%;
+   transition: all 1s;
+
+}
+.social-media .twitter:hover{
+background-color: #1aa9e1 !important;
+color: white !important;
+
+}
+
+.social-media .youtube{
+   color: #c3191e !important;
+   background-color: white;
+   padding: 5px 8px 5px 8px;
+   border-radius: 100%;
+   transition: all 1s;
+
+}
+.social-media .youtube:hover{
+ background-color: #c3191e !important;
+ color: white !important;
+}
+
+#home  .up-icon {
+   bottom: 2%;
+   right: 1%;
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+   z-index: 1;
+}
+.main-backcolor {
+   background-color:#901b20 !important;
+}
+.aboutBody{
+background-image: url(../images/794887835710.jpg);
+   background-size: cover;
+   height: 100%;
+   color: white;
+   padding: 0px !important;
+   font-weight: 600;
+   font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.aboutCover{
+   background-color: rgba(0, 0, 0, 0.8);
+   height: 100%;
+   width: 100% !important;
+}
+.aboutCover p{
+   text-align: justify;
+   /* text-shadow: 1px 1px gray; */
+   
+}
+.modal-header h5{
+   font-family: Lobster Two,cursive;
+   color: #7c1217;
+   font-size: 25px !important;
+}
+.aboutModel{
+   box-shadow: 1px 1px 5px rgb(153, 153, 153) !important;
+  }
+  
+
+
+
+
+
+
+
+
+
+
